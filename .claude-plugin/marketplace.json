@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "agentic-marketplace",
+  "description": "A community collection of Claude Code plugins for agentic coding.",
+  "owner": {
+    "name": "elviin",
+    "url": "https://github.com/elviin/agentic-marketplace"
+  },
+  "plugins": [
+    {
+      "name": "grill-yourself",
+      "description": "Adversarial self-review: the model submits its own plan to a grill-master subagent that interrogates it over several rounds until genuine consensus.",
+      "version": "1.0.0",
+      "category": "workflow",
+      "keywords": ["review", "planning", "adversarial", "subagent"],
+      "author": { "name": "elviin" },
+      "source": "./plugins/grill-yourself"
+    }
+  ]
+}

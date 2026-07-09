@@ -1,0 +1,8 @@
+{
+  "name": "grill-yourself",
+  "description": "Adversarial self-review: the model submits its own plan to a grill-master subagent that interrogates it over several rounds until genuine consensus (or disputes escalate to the human).",
+  "version": "1.0.0",
+  "author": { "name": "elviin" },
+  "homepage": "https://github.com/elviin/agentic-marketplace",
+  "keywords": ["review", "planning", "adversarial", "subagent"]
+}
